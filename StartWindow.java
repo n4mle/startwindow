@@ -68,7 +68,7 @@ class InstructionsWindow extends JFrame {
     public InstructionsWindow() {
         setTitle("Game Instructions");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setSize(300, 200);
+        setSize(350, 200);
         setLocationRelativeTo(null);
 
         JButton backButton = new JButton("Back");
