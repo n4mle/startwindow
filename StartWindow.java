@@ -81,7 +81,7 @@ class InstructionsWindow extends JFrame {
         });
 
         JPanel panel = new JPanel();
-        panel.add(new JLabel("These are the game instructions."));
+        panel.add(new JLabel("In this game, you will guess a number between 1 and 100."));
         panel.add(backButton);
 
         add(panel);
